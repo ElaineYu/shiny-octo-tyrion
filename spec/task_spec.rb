@@ -6,7 +6,7 @@ require 'spec_helper'
 
 describe Task do
   before(:all) do
-    @task = Task.new
+    @task = Task.new({description: "Do something", list_id: 1})
   end
 
   it "Task should be valid" do
@@ -16,7 +16,7 @@ end
 
 describe List do
   before(:all) do
-    @list = List.new
+    @list = List.new(name: "Todo List")
   end
 
   it "List should be valid" do
