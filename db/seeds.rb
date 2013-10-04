@@ -5,7 +5,7 @@ require 'faker'
 
 List.create(:name => "BS LIST")
 
-10.times do
+15.times do
   Task.create(
     description: Faker::Company.bs,
              binding.pry
