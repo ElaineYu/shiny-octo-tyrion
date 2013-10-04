@@ -9,8 +9,8 @@ describe Task do
     @task = Task.new
   end
 
-  it "Task should exist" do
-    @task.class == Task
+  it "Task should be valid" do
+    @task.should be_valid
   end
 end
 
@@ -19,9 +19,10 @@ describe List do
     @list = List.new
   end
 
-  it "List should exist" do
-    @list.class == List
+  it "List should be valid" do
+    @list.should be_valid
   end
+
 end
 
 
