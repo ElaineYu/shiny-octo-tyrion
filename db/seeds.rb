@@ -1,6 +1,6 @@
 require_relative '../config/application'
 require 'faker'
-# require 'pry'
+#require 'pry'
 
 
 List.create(:name => "BS LIST")
