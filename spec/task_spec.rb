@@ -11,6 +11,7 @@ describe Task do
 
   it "Task should be valid" do
     @task.should be_valid
+
   end
 end
 
@@ -19,9 +20,13 @@ describe List do
     @list = List.new(name: "Todo List")
   end
 
+
   it "List should be valid" do
     @list.should be_valid
   end
+
+
+
 
 end
 
