@@ -1,4 +1,4 @@
-require 'rspec'
+srequire 'rspec'
 require_relative '../app/models/task'
 require_relative '../app/models/list'
 
@@ -9,8 +9,10 @@ describe Task do
     @task = Task.new({description: "Do something", list_id: 1})
   end
 
+
   it "Task should be valid" do
     @task.should be_valid
+
 
   end
 end
@@ -23,7 +25,7 @@ describe List do
 
   it "List should be valid" do
     @list.should be_valid
-  end
+end
 
 
 
