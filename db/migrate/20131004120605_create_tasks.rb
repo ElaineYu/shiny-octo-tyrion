@@ -9,3 +9,4 @@ class CreateTasks < ActiveRecord::Migration # "to create tasks"
     end
   end
 end
+
