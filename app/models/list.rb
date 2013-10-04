@@ -1,6 +1,5 @@
+require_relative '../../config/application'
+
 class List < ActiveRecord::Base
-  #name
-  #timestamps
-
-
+  has_many :tasks
 end
